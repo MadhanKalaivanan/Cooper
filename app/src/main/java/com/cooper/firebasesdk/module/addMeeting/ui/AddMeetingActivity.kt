@@ -24,16 +24,14 @@ class AddMeetingActivity : BaseActivity<ActivityAddAndEditNoteBinding, AddMeetin
     }
 
     private fun initView(){
-        if(viewModel.isEdit.value == true && intent.getSerializableExtra(Constants.RESULT_DATA) != null){
-            val resultData =  intent.getSerializableExtra(Constants.RESULT_DATA) as ResultData
+         if (viewModel.isEdit.value == true && intent.getSerializableExtra(Constants.RESULT_DATA) != null) {
+            val resultData = intent.getSerializableExtra(Constants.RESULT_DATA) as ResultData
             dataBinding.title.setText(resultData.title)
             dataBinding.date.setText(resultData.date)
             dataBinding.note.setText(resultData.description)
-            if(viewModel.isEdit.value == true){
-                dataBinding.btnSubmit.text = "Edit"
-            }else{
-                dataBinding.btnSubmit.text = "Add"
-            }
+            dataBinding.btnSubmit.text = "Edit"
+        } else {
+            dataBinding.btnSubmit.text = "Add"
         }
     }
 
