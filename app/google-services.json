@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "985386367697",
+    "firebase_url": "https://cooper-7e084-default-rtdb.firebaseio.com",
+    "project_id": "cooper-7e084",
+    "storage_bucket": "cooper-7e084.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985386367697:android:9edf747355d53c2e6f63f0",
+        "android_client_info": {
+          "package_name": "com.cooper.firebasesdk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985386367697-0e829s3lp49rma3u2fr6qpao54m3s8dp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDGDlHNin2_oJATraLhpQJ55_ovGlVxOO8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985386367697-0e829s3lp49rma3u2fr6qpao54m3s8dp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
